@@ -1,0 +1,44 @@
+/* your styles go here */
+        nav.side-navbar ul li a:hover {
+  background: #006331;
+  border-left: 4px solid #FFD700;
+  color: #fff;
+}
+
+nav.side-navbar ul li li a {
+  padding-left: 50px;
+  background: #006331;
+}
+
+nav.side-navbar ul li.active > a {
+  background: #006331;
+  color: #fff;
+  border-left: 4px solid #FFD700;
+}
+
+nav.side-navbar ul li.active > a:hover {
+  background: #006331;
+}
+
+nav.side-navbar ul li li.active > a {
+  background: #006331;
+}
+
+nav.side-navbar ul li ul {
+  padding: 0;
+}
+
+nav.side-navbar.shrinked {
+  min-width: 90px;
+  max-width: 90px;
+  text-align: center;
+}
+
+.page {
+  background: #EEF5F9;
+}
+
+.login-page .form-holder .info {
+  background-color: #006331;
+  color: #fff;
+}
